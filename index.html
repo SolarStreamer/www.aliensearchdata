@@ -1,0 +1,55 @@
+<!Doctype html>
+<htmml lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title> Omnitrix Database </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <!--Top Navigation Bar-->
+    <header class="top bar">
+      <div class="logo">Omnitrix Database</div>
+
+      <!--Omnitrix Button-->
+      <button id="omnitrixButton" class="omnitrix-button">
+        <img src="https://segworks.com/?c=34131154041400" alt="Omnitrix Icon">
+      </button>
+    </header>
+
+    <!--Hero Section-->
+    <section class="hero">
+      <div class="omni-core></div>
+        <h1 class="hero-title">All Aliens</h1>
+        <p class="hero-subtitle">Accessing complete multiverse genetic index ...</p>
+    </section>
+
+    <!--Search Section-->
+    <section class="seach-section">
+      <input id="searchInput" type="text" placeholder="Search alien name, species or omnitrix...">
+      <button id="searchBtn">Scan</button>
+      <div id="searchResult"></div>
+    </section>
+
+    <!--Alien List Section-->
+    <section class="alien-grid">
+      <h2>All Known Aliens</h2>
+      <div id="alienList" class="grid"></div>
+    </section>
+
+    <!--Secret Code Input-->
+    <section class="code-section">
+      <h3>Omnitrix code input</h3>
+
+      <div class="code-buttons">
+        <button class="code-btn" data-value="L">L</button>
+        <button class="code-btn" data-value="R">R</button>
+      </div>
+      <div id="codeDisplay"></div>
+      <button id="resetCode">Reset Code</button>
+    </section>
+    <script src="alien.js"></script>
+    <script src=main.js"></script>
+      </body>
+</htmml>
